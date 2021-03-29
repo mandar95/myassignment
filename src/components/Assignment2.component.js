@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button';
 
 export default function Assignment2(props) {
 
+    //comment1
     useEffect(() => {
         $('#output').text(maxSumOfSubArray(getInputArrayAndCount().inputArray, getInputArrayAndCount().count))
 
